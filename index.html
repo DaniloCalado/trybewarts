@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TRYBEWATS</title>
+</head>
+<body>
+    <header class="header">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg"></img>
+        <h1 id="trybewarts-header-title">Trybewats</h1>
+        <form id="trybewarts-login" action="get"> 
+            <input id="login" placeholder="  login"></input>
+            <input id="password" placeholder="  senha"></input>
+        </form>
+    </header>
+    <main>
+        <form id="evaluation-form" class="evaluation-form" action="get">
+            <div class="container-one">
+                <input id="input-name" placeholder=" nome"></input>
+                <input id="input-lastname" placeholder=" sobrenome"></input>
+                <input id="input-email" placeholder=" e-mail"></input>
+                <label for="house">CASA:</label>
+                <select id="house" name="house">
+                    <option id="gitnoria-house" value="Gitnoria">Gitnoria</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
+            </div>
+            <hr>
+            <div class="container-two">
+            <label for="family" id="label-family" >Qual a sua família?</label>
+                <label for="frontend">
+                    <input type="radio" name="family" id="frontend" value="frontend">Família Frontend</input>
+                </label>
+                <label for="backend">
+                    <input type="radio" name="family" id="backend" value="backend">Família Backend</input>
+                </label>
+                <label for="fullstack">
+                    <input type="radio" name="family" id="fullstack" value="fullstack">Família Fullstack</input>
+                </label>
+            </div>
+            
+            
+        </form>
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"></img>
+    </main>
+</body>
+</html>
